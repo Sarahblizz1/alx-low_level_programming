@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
+ *
  * main - main block 
- * Description: Get a random number and print the number
+ * Description: Get a random number and print number
  * and if it is positive, negative, or zero 
  * Return: 0 
  */
@@ -20,7 +21,6 @@ int main(void)
 		printf("%i is negative\n", n);
 
 	else
-
 		printf("%i is zero\n", n);
 
 
