@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: Get a random number and print number 
+ *  
  * Return: Always 0 (sucess)
  */
 int main(void)
