@@ -6,10 +6,10 @@
  */
 void print_alphabet(void)
 {
-	int j;
-	for (j = 'a'; j <= 'z'; j++)
+	char alpha;
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		_putchar(j);
+		_putchar (alpha);
 	}
 	_putchar('\n');
 
