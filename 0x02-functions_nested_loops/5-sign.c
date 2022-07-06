@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_ print_sign - determines input number
+ * print_sign - determines input number
  * @n: the input number as an integer
  * Return: 1>0, 0=0, -1<0
  */
