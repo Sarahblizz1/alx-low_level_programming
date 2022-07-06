@@ -4,9 +4,11 @@
  * @nld: result of ld
  * Return: value of ld
  */
+
 int print_last_digit(int nld)
 {
 	int pld;
+
 	pld = (nld % 10);
 
 	if (pld < 0)
