@@ -8,6 +8,6 @@ int _abs(int);
 int _print_last_digit(int n);
 void _jack_bauer(void);
 void _times_table(void);
-int -add(int, int);
+int _add(int, int);
 void _print_to_98(int n);
 void _print_times_table(int n);
