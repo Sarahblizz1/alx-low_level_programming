@@ -1,5 +1,8 @@
 #include "main.h"
 /**
+ * times_table - a function that prints times table
+ * rone = row, cone= column, d = digut of current result
+ * Return: times table
  */
 void times_table(void)
 {
@@ -12,7 +15,7 @@ void times_table(void)
 		_putchar(' ');
 		for (cone = 1; cone <= 9; cone++)
 		{
-			d =(rone * cone);
+			d = (rone * cone);
 			if ((d / 10) > 0)
 			{
 				_putchar((d / 10) + '0');
