@@ -5,7 +5,6 @@
  * @two: second digit
  * Return: one + two
  */
-
 int add (int one,int two)
 {
 	return (one + two);
