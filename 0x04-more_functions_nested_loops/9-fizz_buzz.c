@@ -30,12 +30,12 @@ int i = 1;
 		}
 		if (i != 10)
 		{
-			putchar(' ');
+			_putchar(' ');
 
 		}
 
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
