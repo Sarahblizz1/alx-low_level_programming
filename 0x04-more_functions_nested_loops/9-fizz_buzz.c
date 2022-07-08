@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - check code for students
@@ -16,7 +16,7 @@ while (i <= 100)
 	{
 		printf("FizzBuzz");
 	}
-	else if (i % 3 ==)
+	else if (i % 3 == 0)
 	{
 		printf("Fizz");
 	}
