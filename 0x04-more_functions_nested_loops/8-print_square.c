@@ -8,20 +8,23 @@
 
 void print_square(int n)
 {
-	int i = 0, ii;
+	int co, ro;
 
-	while (i < n && n > 0)
+	if (size <= 0)
 	{
-		ii = 0;
-		while (ii < n)
+		_putchar('\n');
+	}
+	else
+	{
+		for (co = 1; co <= size; co++)
 		{
 			_putchar('#');
-			ii++;
+			for (ro = 2; ro <= size; ro++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
-		ii++;
 	}
-	if (i == 0)
-		_putchar('\n');
 }
 
