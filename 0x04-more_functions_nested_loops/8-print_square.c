@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - checks for a digit
+ * print_square - check for a digit
  * @n: number of _ to be printed
  * Return: void
  */
