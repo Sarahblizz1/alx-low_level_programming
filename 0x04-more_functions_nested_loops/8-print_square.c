@@ -2,7 +2,7 @@
 
 /**
  * print_square - check for a digit
- * @n: number of _ to be printed
+ * @size: size of both width and lenght
  * Return: void
  */
 
