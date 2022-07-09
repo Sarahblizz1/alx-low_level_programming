@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints prime numbers
@@ -17,5 +17,6 @@ int main(void)
 		n = n / i;
 	}
 	printf("%lu\n", n);
+
 	return (0);
 }
