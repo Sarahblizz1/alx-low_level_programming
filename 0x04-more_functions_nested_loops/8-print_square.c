@@ -3,7 +3,7 @@
 /**
  * print_square - check for a digit
  * @size: size of both width and lenght
- * Return: void
+ * Return: a square made of 's'
  */
 
 void print_square(int n)
