@@ -8,7 +8,7 @@
  * @n: number of elements to be printed
  */
 
-void point_array(int *a, int n)
+void print_array(int *a, int n)
 {
 	int index;
 
