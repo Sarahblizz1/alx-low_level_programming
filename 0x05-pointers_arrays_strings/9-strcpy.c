@@ -5,6 +5,7 @@
  * is pointed by @dest
  * @dest: a buffer to copy string to
  * @src: a source string to copy
+ * Return:a pointer to @dest
  */
 
 char *_strcpy(char *dest, char *src)
