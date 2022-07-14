@@ -2,27 +2,22 @@
 
 /**
  * leet - Encodes a script to 1337
- * @str: the string to be encoded
+ * @s: the string to be encoded
  *
  * Return: a pointer to the encoded string
  */
 
-char *leet(char *str)
+char *leet(char *s)
 {
-	int indx1 = 0, indx2;
-	char leet[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	int i, j;
+	char leet[] = {"oOlL22eEaA5566tT"};
 
-	while (str[indx1])
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (indx2 = 0; indx2 <= 7; indx2++)
-		{
-			if (str[indx1] == leet[indx2] || str[indx1] - 32 == leet[indx2])
-				str[indx1] = indx2 + '0';
-		}
-
-		indx1++;
+		for (j = 0; j < 16; j++)
+			if (s[i] == leet[j])
+				s[i] = j / 2 + '0';
 	}
 
-	return (str);
+	return (s);
 }
-
