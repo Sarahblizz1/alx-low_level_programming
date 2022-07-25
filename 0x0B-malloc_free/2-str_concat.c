@@ -4,13 +4,13 @@
 /**
  * str_concat - concatenates two strings.
  * @s1: first string.
- * s2: second string.
+ * @s2: second string.
  *
  * Return: pointer of an array of char
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *strout;	
+	char *strout;
 	unsigned int i, j, k, limit;
 
 	if (s1 == NULL)
