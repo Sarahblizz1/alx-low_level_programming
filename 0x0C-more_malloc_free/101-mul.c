@@ -64,7 +64,7 @@ char *iterate_zeroes(char *str)
 }
 
 /**
- * corresponding int.
+ * get_digit - converts a digit character to a corresponding int.
  * @c: The character to be converted.
  * Description: If c is a non-digit, the function
  * exits with a status of 98.
@@ -90,7 +90,7 @@ int get_digit(char c)
  * @mult: The string of numbers.
  * @digit: The single digit.
  * @zeroes: The necessary number of leading zeroes
- * Description: If mult contains a non-digi, the function
+ * Description: If mult contains a non-digit, the function
  * exits with a status value of 98.
  */
 
