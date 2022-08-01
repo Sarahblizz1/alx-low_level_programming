@@ -1,11 +1,11 @@
-#ifndef FILE_H
-#define FILE_H
+#ifndef FILE_DOG
+#define FILE_DOG
 
 /**
- * struct dog - A new type describing a dog.
- * @name: The name of the dog.
- * @age: The age of the dog.
- * @owner: The owner of the dog.
+ * struct dog - structure dog
+ * @name: atribute pointer to char name's dog
+ * @age: atribute float age's dog
+ * @owner: atribute pointer to char owner's dog
  */
 
 struct dog
@@ -14,10 +14,6 @@ struct dog
 	float age;
 	char *owner;
 };
-
-/**
- * dog_t - Typedef for struct dog
- */
 
 typedef struct dog dog_t;
 
