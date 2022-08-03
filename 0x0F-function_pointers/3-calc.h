@@ -2,10 +2,10 @@
 #define FILE_CALC
 
 /**
- *  * struct op - Structure op
- *   * @op: operator
- *    * @f: function
- *     */
+ * struct op - Structure op
+ * @op: operator
+ * @f: function
+ */
 
 typedef struct op
 {
